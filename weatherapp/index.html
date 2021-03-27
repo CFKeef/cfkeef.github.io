@@ -1,31 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Weather App!</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="scripts.js"></script>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Weather App!</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <main>
-        <section>
-            <h1>Maspeth</h1>
-            <div class="infoContainer">
-                <img src="" id="weatherIcon" alt="weatherIcon" />
-                <div class="tempatureContainer">
-                    <h2 id="temp">
-                        19
-                    </h2>
-                    <sup>
-                        &#176;
-                    </sup>
-                </div>
-                <p id="description">light rain</p>
-            </div>
-
-        </section>
-    </main>
-</body>
-
+	<body>
+		<main>
+			<section>
+				<h1 id="city">Maspeth</h1>
+				<div class="infoContainer">
+					<img src="" id="icon" alt="weather Icon" />
+					<div class="tempatureContainer">
+						<h2 id="temp">19</h2>
+						<sup> &#176; </sup>
+					</div>
+					<p id="desc">light rain</p>
+					<p id="sunrise"></p>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
